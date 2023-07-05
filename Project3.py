@@ -17,8 +17,8 @@ from streamlit_pandas_profiling import st_profile_report
         #  </style>
         #  """,
         # unsafe_allow_html=True)
-
-with open('/home/phantom/Desktop/Project 3/pic.jpg', "rb") as image_file:        
+with open('pic.jpg', "rb") as image_file:        
+# with open('/home/phantom/Desktop/Project 3/pic.jpg', "rb") as image_file:        
         encoded_string = base64.b64encode(image_file.read())
 st.markdown(
     f"""
